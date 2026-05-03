@@ -21,20 +21,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Confirm folder exists
+      - name: Confirm folder
         run: pwd && ls -la
 
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
           php-version: "8.2"
+          extensions: mbstring, intl, json, curl, mysqli, pdo_mysql
 
       - name: Validate Composer file
         run: |
           if [ -f composer.json ]; then
             composer validate --no-check-publish || true
           else
-            echo "No composer.json found in apps/serviopanel"
+            echo "No composer.json found. Skipping Composer validation."
           fi
 
   check-servio-web:
@@ -43,13 +44,13 @@ jobs:
 
     defaults:
       run:
-        working-directory: apps/servio-web
+        working-directory: apps/servioweb
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Confirm folder exists
+      - name: Confirm folder
         run: pwd && ls -la
 
       - name: Set up Node
@@ -64,7 +65,7 @@ jobs:
           elif [ -f package.json ]; then
             npm install
           else
-            echo "No package.json found in apps/servio-web"
+            echo "No package.json found."
             exit 1
           fi
 
@@ -82,19 +83,19 @@ jobs:
 
     defaults:
       run:
-        working-directory: apps/servio-customer-app
+        working-directory: apps/client
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Confirm folder exists
+      - name: Confirm folder
         run: pwd && ls -la
 
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: "stable"
+          channel: stable
 
       - name: Install dependencies
         run: flutter pub get
@@ -108,19 +109,19 @@ jobs:
 
     defaults:
       run:
-        working-directory: apps/servio-provider-app
+        working-directory: apps/provider
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Confirm folder exists
+      - name: Confirm folder
         run: pwd && ls -la
 
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: "stable"
+          channel: stable
 
       - name: Install dependencies
         run: flutter pub get
