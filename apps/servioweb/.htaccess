@@ -1,0 +1,40 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    
+    # Allow SSL certificate verification (Let's Encrypt)
+    RewriteRule ^\.well-known/acme-challenge/(.*) $0 [L]
+    
+    # Serve Next.js static files directly from filesystem (performance optimization)
+    # These files have cache-busting hashes, safe to serve directly
+    RewriteRule ^_next/static/(.*) /.next/static/$1 [L]
+    
+    # Proxy Next.js data requests to custom server (required for SSR/ISR)
+    # These contain page props and must go through the Node.js server
+    RewriteRule ^_next/data/(.*) http://127.0.0.1:8001/_next/data/$1 [P,L]
+    
+    # Serve public folder static assets directly (images, fonts, etc.)
+    RewriteCond %{REQUEST_URI} \.(js|css|svg|jpg|jpeg|png|gif|ico|woff|woff2|ttf|eot|webp|mp4|webm|json|xml)$
+    RewriteRule ^ - [L]
+    
+    # Proxy all other requests to custom Node.js server
+    # This handles SSR, API routes, and dynamic pages
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ http://127.0.0.1:8001/$1 [P,L]
+    
+    # Fallback for index files
+    RewriteRule ^index\.(html|php)$ http://127.0.0.1:8001/ [P,L]
+</IfModule>
+
+# Security headers (optional but recommended)
+<IfModule mod_headers.c>
+    # Prevent clickjacking
+    Header always set X-Frame-Options "SAMEORIGIN"
+    
+    # Prevent MIME type sniffing
+    Header always set X-Content-Type-Options "nosniff"
+    
+    # Enable XSS protection
+    Header always set X-XSS-Protection "1; mode=block"
+</IfModule>

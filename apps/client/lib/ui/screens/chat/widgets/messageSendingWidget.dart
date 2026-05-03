@@ -1,0 +1,105 @@
+import 'package:e_demand/app/generalImports.dart';
+import 'package:flutter/material.dart';
+
+class ChatMessageSendingWidget extends StatelessWidget {
+  final Function() onMessageSend;
+  final Function() onAttachmentTap;
+  final TextEditingController textController;
+  final bool showAttachmentButton;
+
+  const ChatMessageSendingWidget({
+    super.key,
+    required this.onMessageSend,
+    required this.textController,
+    required this.onAttachmentTap,
+    this.showAttachmentButton = true,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomContainer(
+      color: context.colorScheme.secondaryColor,
+      padding: EdgeInsets.only(
+        left: 15,
+        right: 15,
+        top: 10,
+        bottom: MediaQuery.of(context).padding.bottom + 10,
+      ),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          if (showAttachmentButton) ...[
+            GestureDetector(
+              onTap: onAttachmentTap,
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: CustomSvgPicture(
+                  svgImage: AppAssets.addAttachment,
+                  boxFit: BoxFit.contain,
+                  width: 20,
+                  height: 20,
+                  color: context.colorScheme.accentColor,
+                ),
+              ),
+            ),
+            const CustomSizedBox(
+              width: 10,
+            ),
+          ],
+          Expanded(
+            child: CustomContainer(
+              borderRadius: UiUtils.borderRadiusOf8,
+              color: Theme.of(context).scaffoldBackgroundColor,
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child: TextField(
+                controller: textController,
+                maxLines: 5,
+                minLines: 1,
+                maxLength: UiUtils.maxCharactersInATextMessage,
+                decoration: InputDecoration(
+                  border: InputBorder.none,
+                  hintText: "chatSendHint".translate(context: context),
+                  counterText: '',
+                  hintStyle: TextStyle(
+                    color: context.colorScheme.secondary,
+                    fontSize: 14,
+                  ),
+                ),
+                onSubmitted: (value) {
+                  onMessageSend();
+                },
+                cursorColor: context.colorScheme.secondary,
+                style: TextStyle(
+                  color: context.colorScheme.secondary,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+          const CustomSizedBox(
+            width: 10,
+          ),
+          CustomInkWellContainer(
+            onTap: onMessageSend,
+            child: CustomContainer(
+              borderRadius: UiUtils.borderRadiusOf8,
+              height: 48,
+              width: 48,
+              padding: const EdgeInsets.all(8),
+              color: context.colorScheme.accentColor.withAlpha(30),
+              child: Center(
+                child: CustomSvgPicture(
+                  svgImage: AppAssets.sendMessage,
+                  boxFit: BoxFit.contain,
+                  width: 24,
+                  height: 24,
+                  color: context.colorScheme.accentColor,
+                ),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}

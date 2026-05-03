@@ -1,0 +1,13 @@
+{
+    "Controllers/api": "deleted:2026-04-14T17:40:38+08:00",
+    "Controllers/partner/api": "deleted:2026-04-14T17:40:38+08:00",
+    "Controllers/Apis/Customer/LanguageApiController.php": "already_missing:2026-04-14T17:40:38+08:00",
+    "Jobs/BookingNotification.php": "deleted:2026-04-14T17:40:38+08:00",
+    "Jobs/ChatNotification.php": "deleted:2026-04-14T17:40:38+08:00",
+    "Jobs/NumberLoggerJob.php": "deleted:2026-04-14T17:40:38+08:00",
+    "Scripts/cleanup_migrations_once.php": "already_missing:2026-04-14T17:40:38+08:00",
+    "Controllers/Apis/Provider/V1.php": "already_missing:2026-04-14T17:40:38+08:00",
+    "Controllers/Apis/Customer/V1.php": "already_missing:2026-04-14T17:40:38+08:00",
+    "Controllers/Webhooks/Webhooks.php": "already_missing:2026-04-14T17:40:38+08:00",
+    "Models/CustomIonAuthModel.php": "deleted:2026-04-14T17:40:38+08:00"
+}

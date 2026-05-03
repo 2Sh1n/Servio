@@ -1,0 +1,1108 @@
+Folder PATH listing for volume Dev Drive
+Volume serial number is 780F-E817
+F:\XAMPP\HTDOCS\SERVIO\CLIENT
+|   .DS_Store
+|   .gitignore
+|   analysis_options.yaml
+|   devtools_options.yaml
+|   e_demand.iml
+|   filetree.txt
+|   pubspec.yaml
+|   README.md
+|   
++---android
+|   |   .DS_Store
+|   |   .gitignore
+|   |   build.gradle
+|   |   gradle.properties
+|   |   gradlew
+|   |   gradlew.bat
+|   |   local.properties
+|   |   settings.gradle
+|   |   
+|   +---app
+|   |   |   build.gradle
+|   |   |   proguard-rules.pro
+|   |   |   
+|   |   \---src
+|   |       +---debug
+|   |       |       AndroidManifest.xml
+|   |       |       
+|   |       +---main
+|   |       |   |   AndroidManifest.xml
+|   |       |   |   
+|   |       |   +---java
+|   |       |   |   \---io
+|   |       |   |       \---flutter
+|   |       |   |           \---plugins
+|   |       |   |                   GeneratedPluginRegistrant.java
+|   |       |   |                   
+|   |       |   +---kotlin
+|   |       |   |   \---wrteam
+|   |       |   |       \---edemand
+|   |       |   |           \---customer
+|   |       |   |               \---e_demand
+|   |       |   |                       MainActivity.kt
+|   |       |   |                       
+|   |       |   \---res
+|   |       |       |   .DS_Store
+|   |       |       |   
+|   |       |       +---drawable
+|   |       |       |       booking.png
+|   |       |       |       category.png
+|   |       |       |       explore.png
+|   |       |       |       ic_launcher.png
+|   |       |       |       launch_background.xml
+|   |       |       |       profile.png
+|   |       |       |       
+|   |       |       +---drawable-hdpi
+|   |       |       |       ic_launcher_background.png
+|   |       |       |       ic_launcher_foreground.png
+|   |       |       |       
+|   |       |       +---drawable-mdpi
+|   |       |       |       ic_launcher_background.png
+|   |       |       |       ic_launcher_foreground.png
+|   |       |       |       
+|   |       |       +---drawable-v21
+|   |       |       |       launch_background.xml
+|   |       |       |       
+|   |       |       +---drawable-xhdpi
+|   |       |       |       ic_launcher_background.png
+|   |       |       |       ic_launcher_foreground.png
+|   |       |       |       
+|   |       |       +---drawable-xxhdpi
+|   |       |       |       ic_launcher_background.png
+|   |       |       |       ic_launcher_foreground.png
+|   |       |       |       
+|   |       |       +---drawable-xxxhdpi
+|   |       |       |       ic_launcher_background.png
+|   |       |       |       ic_launcher_foreground.png
+|   |       |       |       
+|   |       |       +---mipmap-anydpi-v26
+|   |       |       |       ic_launcher.xml
+|   |       |       |       
+|   |       |       +---mipmap-hdpi
+|   |       |       |       ic_launcher.png
+|   |       |       |       
+|   |       |       +---mipmap-mdpi
+|   |       |       |       ic_launcher.png
+|   |       |       |       
+|   |       |       +---mipmap-xhdpi
+|   |       |       |       ic_launcher.png
+|   |       |       |       
+|   |       |       +---mipmap-xxhdpi
+|   |       |       |       ic_launcher.png
+|   |       |       |       
+|   |       |       +---mipmap-xxxhdpi
+|   |       |       |       ic_launcher.png
+|   |       |       |       
+|   |       |       +---values
+|   |       |       |       styles.xml
+|   |       |       |       
+|   |       |       \---values-night
+|   |       |               styles.xml
+|   |       |               
+|   |       \---profile
+|   |               AndroidManifest.xml
+|   |               
+|   \---gradle
+|       \---wrapper
+|               gradle-wrapper.jar
+|               gradle-wrapper.properties
+|               
++---assets
+|   |   .DS_Store
+|   |   
+|   +---animation
+|   |       fail.json
+|   |       maintenance_mode.json
+|   |       maintenance_mode.riv
+|   |       success.json
+|   |       
+|   +---countryCodes
+|   |       countryCodes.json
+|   |       
+|   +---fonts
+|   |       Lexend-Black.ttf
+|   |       Lexend-Bold.ttf
+|   |       Lexend-ExtraBold.ttf
+|   |       Lexend-ExtraLight.ttf
+|   |       Lexend-Light.ttf
+|   |       Lexend-Medium.ttf
+|   |       Lexend-Regular.ttf
+|   |       Lexend-SemiBold.ttf
+|   |       Lexend-Thin.ttf
+|   |       
+|   +---icons
+|   |       app_logo_icon.png
+|   |       background.png
+|   |       forground.png
+|   |       
+|   +---images
+|   |   |   .DS_Store
+|   |   |   active_booking.svg
+|   |   |   active_category.svg
+|   |   |   active_explore.svg
+|   |   |   active_my_req.svg
+|   |   |   active_profile.svg
+|   |   |   address.svg
+|   |   |   add_attachment.svg
+|   |   |   appleicon.svg
+|   |   |   Arabic.svg
+|   |   |   att_camara.svg
+|   |   |   att_file.svg
+|   |   |   att_gallary.svg
+|   |   |   back_arrow.svg
+|   |   |   back_arrow_ltr.svg
+|   |   |   booking.svg
+|   |   |   bookmark.svg
+|   |   |   bookmarked.svg
+|   |   |   building.svg
+|   |   |   card.svg
+|   |   |   category.svg
+|   |   |   close_service.svg
+|   |   |   confirm_delete.svg
+|   |   |   current_location.svg
+|   |   |   delete.svg
+|   |   |   discount.svg
+|   |   |   download_icon.svg
+|   |   |   drBlockedUsers.svg
+|   |   |   dr_aboutus.svg
+|   |   |   dr_address.svg
+|   |   |   dr_become_provider.svg
+|   |   |   dr_blogs.svg
+|   |   |   dr_chat.svg
+|   |   |   dr_contact_us.svg
+|   |   |   dr_delete_account.svg
+|   |   |   dr_favorite.svg
+|   |   |   dr_help.svg
+|   |   |   dr_language.svg
+|   |   |   dr_logout.svg
+|   |   |   dr_notification.svg
+|   |   |   dr_payment.svg
+|   |   |   dr_privacy.svg
+|   |   |   dr_profile.svg
+|   |   |   dr_rateus.svg
+|   |   |   dr_share.svg
+|   |   |   dr_terms.svg
+|   |   |   dr_theme.svg
+|   |   |   edit.svg
+|   |   |   english-au.svg
+|   |   |   explore.svg
+|   |   |   googleicon.svg
+|   |   |   Hindi.svg
+|   |   |   home.svg
+|   |   |   homeadd.svg
+|   |   |   ic_calendar.svg
+|   |   |   ic_check.svg
+|   |   |   ic_clock.svg
+|   |   |   ic_cod.svg
+|   |   |   ic_email.svg
+|   |   |   ic_flutterwave.svg
+|   |   |   ic_group.svg
+|   |   |   ic_location.svg
+|   |   |   ic_notes.svg
+|   |   |   ic_otp.svg
+|   |   |   ic_paypal.svg
+|   |   |   ic_paystack.svg
+|   |   |   ic_phone.svg
+|   |   |   ic_razorpay.svg
+|   |   |   ic_star.svg
+|   |   |   ic_stripe.svg
+|   |   |   ic_uncheck.svg
+|   |   |   ic_xendit.svg
+|   |   |   image_a.png
+|   |   |   image_b.png
+|   |   |   image_c.png
+|   |   |   image_d.png
+|   |   |   image_icon.svg
+|   |   |   inactive_my_req.svg
+|   |   |   location_access.svg
+|   |   |   location_mark.svg
+|   |   |   location_pin.svg
+|   |   |   login_arrow.svg
+|   |   |   login_arrow_lft.svg
+|   |   |   noAddresses.svg
+|   |   |   noBookmarks.svg
+|   |   |   noChat.svg
+|   |   |   noConnection.svg
+|   |   |   noDataFound.svg
+|   |   |   noSearchResult.svg
+|   |   |   notification.svg
+|   |   |   officeadd.svg
+|   |   |   pageNotFound.svg
+|   |   |   polygon.svg
+|   |   |   profile.svg
+|   |   |   search.svg
+|   |   |   search_currunt_location.svg
+|   |   |   send_message.svg
+|   |   |   share_sp.svg
+|   |   |   short.svg
+|   |   |   somethingWentWrong.svg
+|   |   |   sp_down.svg
+|   |   |   store.svg
+|   |   |   support.svg
+|   |   |   
+|   |   +---1.5x
+|   |   |       cancel.png
+|   |   |       confirm.png
+|   |   |       
+|   |   +---2.0x
+|   |   |       cancel.png
+|   |   |       confirm.png
+|   |   |       
+|   |   +---3.0x
+|   |   |       cancel.png
+|   |   |       confirm.png
+|   |   |       
+|   |   +---4.0x
+|   |   |       cancel.png
+|   |   |       confirm.png
+|   |   |       
+|   |   +---branding
+|   |   |       login_logo_dark.svg
+|   |   |       login_logo_light.svg
+|   |   |       noImageFound.svg
+|   |   |       place_holder.svg
+|   |   |       splash_logo.svg
+|   |   |       splash_screen_bottom_logo.svg
+|   |   |       
+|   |   \---flags
+|   |           abw.png
+|   |           afg.png
+|   |           ago.png
+|   |           aia.png
+|   |           ala.png
+|   |           alb.png
+|   |           and.png
+|   |           are.png
+|   |           arg.png
+|   |           arm.png
+|   |           asm.png
+|   |           ata.png
+|   |           atf.png
+|   |           atg.png
+|   |           aus.png
+|   |           aut.png
+|   |           aze.png
+|   |           bdi.png
+|   |           bel.png
+|   |           ben.png
+|   |           bes.png
+|   |           bfa.png
+|   |           bgd.png
+|   |           bgr.png
+|   |           bhr.png
+|   |           bhs.png
+|   |           bih.png
+|   |           blm.png
+|   |           blr.png
+|   |           blz.png
+|   |           bmu.png
+|   |           bol.png
+|   |           bra.png
+|   |           brb.png
+|   |           brn.png
+|   |           btn.png
+|   |           bvt.png
+|   |           bwa.png
+|   |           caf.png
+|   |           can.png
+|   |           cck.png
+|   |           che.png
+|   |           chl.png
+|   |           chn.png
+|   |           civ.png
+|   |           cmr.png
+|   |           cod.png
+|   |           cog.png
+|   |           cok.png
+|   |           col.png
+|   |           com.png
+|   |           cpv.png
+|   |           cri.png
+|   |           cub.png
+|   |           cuw.png
+|   |           cxr.png
+|   |           cym.png
+|   |           cyp.png
+|   |           cze.png
+|   |           deu.png
+|   |           dji.png
+|   |           dma.png
+|   |           dnk.png
+|   |           dom.png
+|   |           dza.png
+|   |           ecu.png
+|   |           egy.png
+|   |           eri.png
+|   |           esh.png
+|   |           esp.png
+|   |           est.png
+|   |           eth.png
+|   |           fin.png
+|   |           fji.png
+|   |           flk.png
+|   |           fra.png
+|   |           fro.png
+|   |           fsm.png
+|   |           gab.png
+|   |           gbr.png
+|   |           geo.png
+|   |           ggy.png
+|   |           gha.png
+|   |           gib.png
+|   |           gin.png
+|   |           glp.png
+|   |           gmb.png
+|   |           gnb.png
+|   |           gnq.png
+|   |           grc.png
+|   |           grd.png
+|   |           grl.png
+|   |           gtm.png
+|   |           guf.png
+|   |           gum.png
+|   |           guy.png
+|   |           hkg.png
+|   |           hmd.png
+|   |           hnd.png
+|   |           hrv.png
+|   |           hti.png
+|   |           hun.png
+|   |           idn.png
+|   |           imn.png
+|   |           ind.png
+|   |           iot.png
+|   |           irl.png
+|   |           irn.png
+|   |           irq.png
+|   |           isl.png
+|   |           isr.png
+|   |           ita.png
+|   |           jam.png
+|   |           jey.png
+|   |           jor.png
+|   |           jpn.png
+|   |           kaz.png
+|   |           ken.png
+|   |           kgz.png
+|   |           khm.png
+|   |           kir.png
+|   |           kna.png
+|   |           kor.png
+|   |           kos.png
+|   |           kwt.png
+|   |           lao.png
+|   |           lbn.png
+|   |           lbr.png
+|   |           lby.png
+|   |           lca.png
+|   |           lie.png
+|   |           lka.png
+|   |           lso.png
+|   |           ltu.png
+|   |           lux.png
+|   |           lva.png
+|   |           mac.png
+|   |           maf.png
+|   |           mar.png
+|   |           mco.png
+|   |           mda.png
+|   |           mdg.png
+|   |           mdv.png
+|   |           mex.png
+|   |           mhl.png
+|   |           mkd.png
+|   |           mli.png
+|   |           mlt.png
+|   |           mmr.png
+|   |           mne.png
+|   |           mng.png
+|   |           mnp.png
+|   |           moz.png
+|   |           mrt.png
+|   |           msr.png
+|   |           mtq.png
+|   |           mus.png
+|   |           mwi.png
+|   |           mys.png
+|   |           myt.png
+|   |           nam.png
+|   |           ncl.png
+|   |           ner.png
+|   |           nfk.png
+|   |           nga.png
+|   |           nic.png
+|   |           niu.png
+|   |           nld.png
+|   |           nor.png
+|   |           npl.png
+|   |           nru.png
+|   |           nzl.png
+|   |           omn.png
+|   |           pak.png
+|   |           pan.png
+|   |           pcn.png
+|   |           per.png
+|   |           phl.png
+|   |           plw.png
+|   |           png.png
+|   |           pol.png
+|   |           pri.png
+|   |           prk.png
+|   |           prt.png
+|   |           pry.png
+|   |           pse.png
+|   |           pyf.png
+|   |           qat.png
+|   |           reu.png
+|   |           rou.png
+|   |           rus.png
+|   |           rwa.png
+|   |           sau.png
+|   |           sdn.png
+|   |           sen.png
+|   |           sgp.png
+|   |           sgs.png
+|   |           shn.png
+|   |           sjm.png
+|   |           slb.png
+|   |           sle.png
+|   |           slv.png
+|   |           smr.png
+|   |           som.png
+|   |           spm.png
+|   |           srb.png
+|   |           ssd.png
+|   |           stp.png
+|   |           sur.png
+|   |           svk.png
+|   |           svn.png
+|   |           swe.png
+|   |           swz.png
+|   |           sxm.png
+|   |           syc.png
+|   |           syr.png
+|   |           tca.png
+|   |           tcd.png
+|   |           tgo.png
+|   |           tha.png
+|   |           tjk.png
+|   |           tkl.png
+|   |           tkm.png
+|   |           tls.png
+|   |           ton.png
+|   |           tto.png
+|   |           tun.png
+|   |           tur.png
+|   |           tuv.png
+|   |           twn.png
+|   |           tza.png
+|   |           uga.png
+|   |           ukr.png
+|   |           umi.png
+|   |           ury.png
+|   |           usa.png
+|   |           uzb.png
+|   |           vat.png
+|   |           vct.png
+|   |           ven.png
+|   |           vgb.png
+|   |           vir.png
+|   |           vnm.png
+|   |           vut.png
+|   |           wlf.png
+|   |           wsm.png
+|   |           yem.png
+|   |           zaf.png
+|   |           zmb.png
+|   |           zwe.png
+|   |           
+|   +---languages
+|   |       en.json
+|   |       
+|   \---mapTheme
+|           darkMap.json
+|           lightMap.json
+|           
++---ios
+|   |   .DS_Store
+|   |   .gitignore
+|   |   fix_pods_runner.sh
+|   |   Podfile
+|   |   PrivacyInfo.xcprivacy
+|   |   
+|   +---Flutter
+|   |       AppFrameworkInfo.plist
+|   |       Debug.xcconfig
+|   |       Release.xcconfig
+|   |       
+|   +---Runner
+|   |   |   AppDelegate.swift
+|   |   |   GeneratedPluginRegistrant.h
+|   |   |   GeneratedPluginRegistrant.m
+|   |   |   Info.plist
+|   |   |   Runner-Bridging-Header.h
+|   |   |   Runner.entitlements
+|   |   |   
+|   |   +---Assets.xcassets
+|   |   |   |   Contents.json
+|   |   |   |   
+|   |   |   +---AppIcon.appiconset
+|   |   |   |       Contents.json
+|   |   |   |       Icon-App-1024x1024@1x.png
+|   |   |   |       Icon-App-20x20@1x.png
+|   |   |   |       Icon-App-20x20@2x.png
+|   |   |   |       Icon-App-20x20@3x.png
+|   |   |   |       Icon-App-29x29@1x.png
+|   |   |   |       Icon-App-29x29@2x.png
+|   |   |   |       Icon-App-29x29@3x.png
+|   |   |   |       Icon-App-40x40@1x.png
+|   |   |   |       Icon-App-40x40@2x.png
+|   |   |   |       Icon-App-40x40@3x.png
+|   |   |   |       Icon-App-50x50@1x.png
+|   |   |   |       Icon-App-50x50@2x.png
+|   |   |   |       Icon-App-57x57@1x.png
+|   |   |   |       Icon-App-57x57@2x.png
+|   |   |   |       Icon-App-60x60@2x.png
+|   |   |   |       Icon-App-60x60@3x.png
+|   |   |   |       Icon-App-72x72@1x.png
+|   |   |   |       Icon-App-72x72@2x.png
+|   |   |   |       Icon-App-76x76@1x.png
+|   |   |   |       Icon-App-76x76@2x.png
+|   |   |   |       Icon-App-83.5x83.5@2x.png
+|   |   |   |       
+|   |   |   +---booking.imageset
+|   |   |   |       booking 1.png
+|   |   |   |       booking 2.png
+|   |   |   |       booking.png
+|   |   |   |       Contents.json
+|   |   |   |       
+|   |   |   +---category.imageset
+|   |   |   |       category 1.png
+|   |   |   |       category 2.png
+|   |   |   |       category.png
+|   |   |   |       Contents.json
+|   |   |   |       
+|   |   |   +---explore.imageset
+|   |   |   |       Contents.json
+|   |   |   |       explore 1.png
+|   |   |   |       explore 2.png
+|   |   |   |       explore.png
+|   |   |   |       
+|   |   |   +---LaunchBackground.imageset
+|   |   |   |       background.png
+|   |   |   |       Contents.json
+|   |   |   |       
+|   |   |   +---LaunchImage.imageset
+|   |   |   |       Contents.json
+|   |   |   |       LaunchImage.png
+|   |   |   |       LaunchImage@2x.png
+|   |   |   |       LaunchImage@3x.png
+|   |   |   |       README.md
+|   |   |   |       
+|   |   |   \---profile.imageset
+|   |   |           Contents.json
+|   |   |           profile 1.png
+|   |   |           profile 2.png
+|   |   |           profile.png
+|   |   |           
+|   |   \---Base.lproj
+|   |           LaunchScreen.storyboard
+|   |           Main.storyboard
+|   |           
+|   +---Runner.xcodeproj
+|   |   |   project.pbxproj
+|   |   |   project.pbxproj.backup
+|   |   |   
+|   |   +---project.xcworkspace
+|   |   |   |   contents.xcworkspacedata
+|   |   |   |   
+|   |   |   \---xcshareddata
+|   |   |       |   IDEWorkspaceChecks.plist
+|   |   |       |   WorkspaceSettings.xcsettings
+|   |   |       |   
+|   |   |       \---swiftpm
+|   |   |           \---configuration
+|   |   \---xcshareddata
+|   |       \---xcschemes
+|   |               Runner.xcscheme
+|   |               
+|   +---Runner.xcworkspace
+|   |   |   contents.xcworkspacedata
+|   |   |   
+|   |   +---xcshareddata
+|   |   |   |   IDEWorkspaceChecks.plist
+|   |   |   |   WorkspaceSettings.xcsettings
+|   |   |   |   
+|   |   |   \---swiftpm
+|   |   |       \---configuration
+|   |   \---xcuserdata
+|   |       \---aayush.xcuserdatad
+|   |               UserInterfaceState.xcuserstate
+|   |               
+|   \---RunnerTests
+|           RunnerTests.swift
+|           
+\---lib
+    |   firebase_options.dart
+    |   main.dart
+    |   
+    +---app
+    |       app.dart
+    |       appAssets.dart
+    |       appLocalization.dart
+    |       appTheme.dart
+    |       generalImports.dart
+    |       registerBlocks.dart
+    |       routes.dart
+    |       
+    +---core
+    |   \---analytics
+    |           analytics_events.dart
+    |           clarity_service.dart
+    |           google_analytics_service.dart
+    |           microsoft_clarity_initializer.dart
+    |           
+    +---cubits
+    |   |   addCategoryCubit.dart
+    |   |   addTransactionCubit.dart
+    |   |   appThemeCubit.dart
+    |   |   baseState.dart
+    |   |   bookingCubit.dart
+    |   |   categoryCubit.dart
+    |   |   changeBookingStatusCubit.dart
+    |   |   checkProviderAvailabilityCubit.dart
+    |   |   downloadInvoiceCubit.dart
+    |   |   faqsCubit.dart
+    |   |   fetchBookingDetailsCubit.dart
+    |   |   fetchMapProviderCubit.dart
+    |   |   fetchPaymentCubit.dart
+    |   |   fetchServiceReviewCubit.dart
+    |   |   fetchUserCurrentLocationCubit.dart
+    |   |   geoLocationCubit.dart
+    |   |   getPromoCodesCubit.dart
+    |   |   googlePlaceCubit.dart
+    |   |   homeScreenCubit.dart
+    |   |   interstitialAdCubit.dart
+    |   |   loadCountryCodeCubit.dart
+    |   |   placeOrderCubit.dart
+    |   |   providerCubit.dart
+    |   |   providerDetailsAndServiceCubit.dart
+    |   |   reviewCubit.dart
+    |   |   searchProviderCubit.dart
+    |   |   searchServicesWithProvidersCubit.dart
+    |   |   sendQueryToAdminCubit.dart
+    |   |   subCategoryAndProviderCubit.dart
+    |   |   submitReviewCubit.dart
+    |   |   systemSettingCubit.dart
+    |   |   updateUserDetailsCubit.dart
+    |   |   userDetailsCubit.dart
+    |   |   validateCustomTimeCubit.dart
+    |   |   validatePromoCodeCubit.dart
+    |   |   
+    |   +---addressCubits
+    |   |       addAddressCubit.dart
+    |   |       addressesCubit.dart
+    |   |       deleteAddressCubit.dart
+    |   |       getAddressCubit.dart
+    |   |       
+    |   +---authentication
+    |   |       appleLoginCubit.dart
+    |   |       authenticationCubit.dart
+    |   |       changePasswordCubit.dart
+    |   |       deleteUserAccount.dart
+    |   |       googleLoginCubit.dart
+    |   |       logoutCubit.dart
+    |   |       resendOTPCubit.dart
+    |   |       sendVerificationCodeCubit.dart
+    |   |       verifyOTPCubit.dart
+    |   |       verifyUserCubit.dart
+    |   |       
+    |   +---blogs
+    |   |       blogCategoryCubit.dart
+    |   |       blogsCubit.dart
+    |   |       
+    |   +---bookmarkCubits
+    |   |       bookmarkCubit.dart
+    |   |       removeFromBookmarkCubit.dart
+    |   |       
+    |   +---cart
+    |   |       addServiceIntoCartCubit.dart
+    |   |       getCartCubit.dart
+    |   |       getTimeSlotCubit.dart
+    |   |       removeCartCubit.dart
+    |   |       removeServiceFromCartCubit.dart
+    |   |       
+    |   +---chat
+    |   |       chatMessagesCubit.dart
+    |   |       chatUsersCubit.dart
+    |   |       deleteChatCubit.dart
+    |   |       getBlockUserListCubit.dart
+    |   |       reportReasonCubit.dart
+    |   |       submitReportCubit.dart
+    |   |       unblockUserCubit.dart
+    |   |       
+    |   +---language
+    |   |       languageDataCubit.dart
+    |   |       languageListCubit.dart
+    |   |       
+    |   +---myRequestCubits
+    |   |       cancelCustomJobRequestCubit.dart
+    |   |       myRequestCartCubit.dart
+    |   |       myRequestDetailsCubit.dart
+    |   |       myRequestListCubit.dart
+    |   |       myServiceRequestCubit.dart
+    |   |       
+    |   \---notificationCubits
+    |           loadNotificationsCubit.dart
+    |           removeNotificationsCubit.dart
+    |           
+    +---data
+    |   |   baseState.dart
+    |   |   
+    |   +---enums
+    |   |       userStatusEnum.dart
+    |   |       
+    |   +---model
+    |   |   |   addressModel.dart
+    |   |   |   allCategoryModel.dart
+    |   |   |   appLanguageModel.dart
+    |   |   |   bookingModel.dart
+    |   |   |   cartModel.dart
+    |   |   |   categoryModel.dart
+    |   |   |   countryCodeModel.dart
+    |   |   |   faqModel.dart
+    |   |   |   getAddressModel.dart
+    |   |   |   googlePlaceModel.dart
+    |   |   |   homeScreenModel.dart
+    |   |   |   introScreenModel.dart
+    |   |   |   notificationModel.dart
+    |   |   |   paymentModel.dart
+    |   |   |   placesModel.dart
+    |   |   |   promoCodeModel.dart
+    |   |   |   providerMapModel.dart
+    |   |   |   providerModel.dart
+    |   |   |   reviewModel.dart
+    |   |   |   sectionModel.dart
+    |   |   |   serviceModel.dart
+    |   |   |   sliderImagesModel.dart
+    |   |   |   subCategoryModel.dart
+    |   |   |   systemSettingsModel.dart
+    |   |   |   timeSlotModel.dart
+    |   |   |   updateUserDetailModel.dart
+    |   |   |   userModel.dart
+    |   |   |   
+    |   |   +---blogs
+    |   |   |       blogCategoryModel.dart
+    |   |   |       blogModel.dart
+    |   |   |       
+    |   |   +---chat
+    |   |   |       blockUserList.dart
+    |   |   |       chatMessage.dart
+    |   |   |       chatNotificationData.dart
+    |   |   |       chatUser.dart
+    |   |   |       reportReasonModel.dart
+    |   |   |       
+    |   |   \---myRequest
+    |   |           myRequestBidderModel.dart
+    |   |           myRequestListModel.dart
+    |   |           
+    |   \---repository
+    |       |   addressRepository.dart
+    |       |   authenticationRepository.dart
+    |       |   blogsRepository.dart
+    |       |   bookingRepository.dart
+    |       |   bookmarkRepository.dart
+    |       |   cartRepository.dart
+    |       |   categoryRepository.dart
+    |       |   countryCodeRepository.dart
+    |       |   googlePlaceRepository.dart
+    |       |   hiveRepository.dart
+    |       |   homeScreenRepository.dart
+    |       |   locationRepository.dart
+    |       |   myRequestRepository.dart
+    |       |   notificationsRepository.dart
+    |       |   providerRepository.dart
+    |       |   reviewRepository.dart
+    |       |   sectionRepository.dart
+    |       |   serviceRepository.dart
+    |       |   settingRepository.dart
+    |       |   subCategoryRepository.dart
+    |       |   systemRepository.dart
+    |       |   userRepository.dart
+    |       |   
+    |       \---chat
+    |               chatNotificationRepository.dart
+    |               chatRepository.dart
+    |               
+    +---ui
+    |   +---screens
+    |   |   |   allowLocationScreen.dart
+    |   |   |   appSettingScreen.dart
+    |   |   |   appUpdateScreen.dart
+    |   |   |   bookmarkScreen.dart
+    |   |   |   bottomNavigationBarScreen.dart
+    |   |   |   categoryScreen.dart
+    |   |   |   changePasswordScreen.dart
+    |   |   |   contactUs.dart
+    |   |   |   countryCodePickerScreen.dart
+    |   |   |   editProfileScreen.dart
+    |   |   |   faqScreen.dart
+    |   |   |   homeScreen.dart
+    |   |   |   loginScreen.dart
+    |   |   |   maintenanceModeScreen.dart
+    |   |   |   manageAddress.dart
+    |   |   |   notAvailableScreen.dart
+    |   |   |   notificationScreen.dart
+    |   |   |   onBoardingScreen.dart
+    |   |   |   OTPVerificationScreen.dart
+    |   |   |   paymentsHistoryScreen.dart
+    |   |   |   profileScreen.dart
+    |   |   |   promoCodeScreen.dart
+    |   |   |   setPasswordScreen.dart
+    |   |   |   splashScreen.dart
+    |   |   |   subCategory.dart
+    |   |   |   webviewPaymentScreen.dart
+    |   |   |   
+    |   |   +---blogs
+    |   |   |   |   blogDetailsScreen.dart
+    |   |   |   |   blogScreen.dart
+    |   |   |   |   
+    |   |   |   \---widgets
+    |   |   |           blogCard.dart
+    |   |   |           categoryFilterBottomSheet.dart
+    |   |   |           categoryItems.dart
+    |   |   |           
+    |   |   +---bookingsDetails
+    |   |   |   |   bookingDetailsScreen.dart
+    |   |   |   |   bookingsList.dart
+    |   |   |   |   bookingsScreen.dart
+    |   |   |   |   paymentGatewayManager.dart
+    |   |   |   |   
+    |   |   |   \---widgets
+    |   |   |           addressScheduleWidget.dart
+    |   |   |           bookingCardContainer.dart
+    |   |   |           bookingDetailsWidgets.dart
+    |   |   |           cancelAndRescheduleBookingButton.dart
+    |   |   |           downloadInvoiceButton.dart
+    |   |   |           notesWidget.dart
+    |   |   |           paymentModeWidget.dart
+    |   |   |           previousOrderCardContainer.dart
+    |   |   |           providerInfoWidget.dart
+    |   |   |           reOrderButton.dart
+    |   |   |           serviceListWidget.dart
+    |   |   |           statusInvoiceWidget.dart
+    |   |   |           
+    |   |   +---chat
+    |   |   |   |   blockChatScreen.dart
+    |   |   |   |   chatMessagesScreen.dart
+    |   |   |   |   chatUsersScreen.dart
+    |   |   |   |   
+    |   |   |   \---widgets
+    |   |   |           attachmentBottomsheetWidget.dart
+    |   |   |           chatUserItem.dart
+    |   |   |           commonImageView.dart
+    |   |   |           imagesFullScreen.dart
+    |   |   |           messageItemComponents.dart
+    |   |   |           messageSendingWidget.dart
+    |   |   |           singleMessageItem.dart
+    |   |   |           
+    |   |   +---checkout
+    |   |   |   |   bookingConfirmation.dart
+    |   |   |   |   scheduleBookingScreen.dart
+    |   |   |   |   
+    |   |   |   \---widgets
+    |   |   |           addressBottomSheet.dart
+    |   |   |           addressRadioOptionsWidget.dart
+    |   |   |           addressSelector.dart
+    |   |   |           chargesTile.dart
+    |   |   |           customContainerOptionsWidget.dart
+    |   |   |           customRadioOptionsWidget.dart
+    |   |   |           generalCardContainer.dart
+    |   |   |           
+    |   |   +---map
+    |   |   |   |   googleMapScreen.dart
+    |   |   |   |   
+    |   |   |   +---utils
+    |   |   |   |       map_utils.dart
+    |   |   |   |       
+    |   |   |   \---widgets
+    |   |   |           addressInfoContainer.dart
+    |   |   |           mapControls.dart
+    |   |   |           mapSearchContainer.dart
+    |   |   |           mapTitleWidget.dart
+    |   |   |           providerMapCard.dart
+    |   |   |           providerSlider.dart
+    |   |   |           
+    |   |   +---myRequest
+    |   |   |   |   myRequestDetailsScreen.dart
+    |   |   |   |   myRequestListScreen.dart
+    |   |   |   |   requestServiceForm.dart
+    |   |   |   |   
+    |   |   |   \---widgets
+    |   |   |           myRequestCard.dart
+    |   |   |           
+    |   |   +---providerDetails
+    |   |   |   |   promocodeContainer.dart
+    |   |   |   |   providerDetailsScreen.dart
+    |   |   |   |   providerServiceDetailsScreen.dart
+    |   |   |   |   reviewScreen.dart
+    |   |   |   |   
+    |   |   |   \---widgets
+    |   |   |       |   aboutProviderContainer.dart
+    |   |   |       |   addToCartContainer.dart
+    |   |   |       |   
+    |   |   |       \---services
+    |   |   |               add_button.dart
+    |   |   |               providerServicesContainer.dart
+    |   |   |               serviceDetailsCard.dart
+    |   |   |               
+    |   |   +---providerList
+    |   |   |       bookmarkIcon.dart
+    |   |   |       providerListScreen.dart
+    |   |   |       
+    |   |   \---search
+    |   |       |   searchProviderScreen.dart
+    |   |       |   
+    |   |       \---widgets
+    |   |               providerListWidget.dart
+    |   |               servicesListWidget.dart
+    |   |               
+    |   \---widgets
+    |       |   addNewAddressContainer.dart
+    |       |   authenticationScreenBackground.dart
+    |       |   bannerAdWidget.dart
+    |       |   bannerPainter.dart
+    |       |   cartSubDetailsContainer.dart
+    |       |   categoryContainer.dart
+    |       |   closeAndConfirmButton.dart
+    |       |   customCachedNetworkImage.dart
+    |       |   customCheckbox.dart
+    |       |   customCircularProgressIndicator.dart
+    |       |   customContainer.dart
+    |       |   customDivider.dart
+    |       |   customFlatButton.dart
+    |       |   customImageContainer.dart
+    |       |   customInkwellContainer.dart
+    |       |   customLoadingMore.dart
+    |       |   customLoadingMoreContainer.dart
+    |       |   customPasswordFieldWithValidators.dart
+    |       |   customradioButton.dart
+    |       |   customReadMoreTextContainer.dart
+    |       |   customRefreshIndicator.dart
+    |       |   customRoundedButton.dart
+    |       |   CustomShadowLineForDevider.dart
+    |       |   customShimmerContainer.dart
+    |       |   customSizedBox.dart
+    |       |   customSvgPicture.dart
+    |       |   customSwitch.dart
+    |       |   customText.dart
+    |       |   customTextFormfield.dart
+    |       |   customTooltipContainer.dart
+    |       |   customWarningBottomSheet.dart
+    |       |   dashedRect.dart
+    |       |   dottedBorderWithHint.dart
+    |       |   emailOrPhoneField.dart
+    |       |   enumForWarningMEssage.dart
+    |       |   errorContainer.dart
+    |       |   flatOutlineButton.dart
+    |       |   galleryImagesStyles.dart
+    |       |   imagePreview.dart
+    |       |   imageWithText.dart
+    |       |   interstitalAdWidget.dart
+    |       |   linearDivider.dart
+    |       |   marqeeWidget.dart
+    |       |   mobileNumberField.dart
+    |       |   noDataFoundWidget.dart
+    |       |   notificationItemContainer.dart
+    |       |   paginatedListview.dart
+    |       |   ratingBox.dart
+    |       |   ReportReasonBottomSheet.dart
+    |       |   scheduledMaintainanceContainer.dart
+    |       |   sectionCardForProviderContainer.dart
+    |       |   sectionCardForSubCategoryContainer.dart
+    |       |   sliderImageWidget.dart
+    |       |   SliderPromoCode.dart
+    |       |   sliver_heighted_deliget.dart
+    |       |   starRating.dart
+    |       |   tooltipShapeBorder.dart
+    |       |   
+    |       +---animation
+    |       |       animationFromBottom.dart
+    |       |       customTweenAnimation.dart
+    |       |       headingAmountAnimation.dart
+    |       |       toastAnimation.dart
+    |       |       
+    |       +---bottomsheets
+    |       |   |   bottomSheetLayout.dart
+    |       |   |   
+    |       |   \---layouts
+    |       |       |   addressBottomSheet.dart
+    |       |       |   calenderBottomSheet.dart
+    |       |       |   cancelBookingBottomSheet.dart
+    |       |       |   chooseCategoryFromServiceRequest.dart
+    |       |       |   chooseLanguageBottomSheet.dart
+    |       |       |   locationBottomSheet.dart
+    |       |       |   promocodeDetailsBottomsheet.dart
+    |       |       |   ratingBottomSheet.dart
+    |       |       |   selectableListBottomSheet.dart
+    |       |       |   
+    |       |       \---serviceDetails
+    |       |               serviceImagesList.dart
+    |       |               
+    |       +---customVideoPlayer
+    |       |   |   playVideoScreen.dart
+    |       |   |   
+    |       |   \---widgets
+    |       |           playPauseButton.dart
+    |       |           videoControlsContainer.dart
+    |       |           
+    |       +---dialog
+    |       |   |   customDialogLayout.dart
+    |       |   |   
+    |       |   \---layouts
+    |       |           deleteAccountDialog.dart
+    |       |           deleteAddressDialog.dart
+    |       |           logInAccountDialog.dart
+    |       |           logoutAccountDialog.dart
+    |       |           replaceCartDialog.dart
+    |       |           
+    |       \---review
+    |               reviewComment.dart
+    |               reviewContainer.dart
+    |               
+    \---utils
+        |   appQuickActions.dart
+        |   checkURLType.dart
+        |   colors.dart
+        |   conetxtExtensions.dart
+        |   constant.dart
+        |   counter.dart
+        |   curlLoggerInterceptor.dart
+        |   dateTimeExtension.dart
+        |   responsiveSize.dart
+        |   scrollExtension.dart
+        |   stringExtension.dart
+        |   stripeService.dart
+        |   timer.dart
+        |   time_selector.dart
+        |   uiUtils.dart
+        |   validation.dart
+        |   
+        +---api
+        |       apiClient.dart
+        |       apiException.dart
+        |       apiParam.dart
+        |       apiUri.dart
+        |       
+        +---notification
+        |       awesomeNotification.dart
+        |       chatNotificationsUtils.dart
+        |       notificationService.dart
+        |       
+        \---shimmerEffect
+                languageListShimmer.dart
+                providerListShimmer.dart
+                
