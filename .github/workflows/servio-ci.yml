@@ -1,0 +1,129 @@
+name: Servio CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check-servio-panel:
+    name: Check Servio Panel
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: apps/serviopanel
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Confirm folder exists
+        run: pwd && ls -la
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.2"
+
+      - name: Validate Composer file
+        run: |
+          if [ -f composer.json ]; then
+            composer validate --no-check-publish || true
+          else
+            echo "No composer.json found in apps/serviopanel"
+          fi
+
+  check-servio-web:
+    name: Check Servio Web
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: apps/servio-web
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Confirm folder exists
+        run: pwd && ls -la
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          elif [ -f package.json ]; then
+            npm install
+          else
+            echo "No package.json found in apps/servio-web"
+            exit 1
+          fi
+
+      - name: Run lint if available
+        run: |
+          if npm run | grep -q "lint"; then
+            npm run lint
+          else
+            echo "No lint script found. Skipping."
+          fi
+
+  check-customer-flutter-app:
+    name: Check Customer Flutter App
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: apps/servio-customer-app
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Confirm folder exists
+        run: pwd && ls -la
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "stable"
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Analyze Flutter code
+        run: flutter analyze || true
+
+  check-provider-flutter-app:
+    name: Check Provider Flutter App
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: apps/servio-provider-app
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Confirm folder exists
+        run: pwd && ls -la
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "stable"
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Analyze Flutter code
+        run: flutter analyze || true
